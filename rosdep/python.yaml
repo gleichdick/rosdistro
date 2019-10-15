@@ -5186,6 +5186,7 @@ python3-opencv:
     buster: [python3-opencv]
   fedora: [python3-opencv]
   openembedded: [opencv@meta-oe]
+  opensuse: [python3-opencv]
   ubuntu:
     bionic: [python3-opencv]
     cosmic: [python3-opencv]
