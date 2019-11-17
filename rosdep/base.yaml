@@ -4027,7 +4027,7 @@ lz4:
   freebsd: [liblz4]
   gentoo: [app-arch/lz4]
   openembedded: [lz4@openembedded-core]
-  opensuse: [lz4]
+  opensuse: [liblz4-devel]
   slackware: [lz4]
   ubuntu:
     artful: [liblz4-dev]
