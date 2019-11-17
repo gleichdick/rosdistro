@@ -858,6 +858,7 @@ gazebo:
     stretch: [gazebo9]
   fedora: [gazebo]
   gentoo: [sci-electronics/gazebo]
+  opensuse: [gazebo]
   slackware: [gazebo]
   ubuntu:
     artful: [gazebo9]
@@ -885,6 +886,7 @@ gazebo7:
     jessie: [gazebo7]
     stretch: [gazebo7]
   gentoo: [=sci-electronics/gazebo-7*]
+  opensuse: [gazebo7]
   slackware: [gazebo]
   ubuntu: [gazebo7]
 gazebo9:
@@ -895,6 +897,7 @@ gazebo9:
     '30': [gazebo]
   gentoo: [sci-electronics/gazebo]
   openembedded: []
+  opensuse: [gazebo9]
   ubuntu:
     artful: [gazebo9]
     bionic: [gazebo9]
@@ -1948,7 +1951,7 @@ libgazebo7-dev:
     jessie: [libgazebo7-dev]
     stretch: [libgazebo7-dev]
   gentoo: [=sci-electronics/gazebo-7*]
-  opensuse: [gazebo-devel]
+  opensuse: [gazebo7-devel]
   slackware: [gazebo]
   ubuntu: [libgazebo7-dev]
 libgazebo9-dev:
@@ -1958,6 +1961,7 @@ libgazebo9-dev:
   fedora:
     '30': [gazebo-devel]
   gentoo: [sci-electronics/gazebo]
+  opensuse: [gazebo9-devel]
   ubuntu:
     artful: [libgazebo9-dev]
     bionic: [libgazebo9-dev]
