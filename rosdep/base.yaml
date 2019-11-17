@@ -250,6 +250,7 @@ bluez:
   debian: [bluez]
   fedora: [bluez-libs]
   gentoo: [net-wireless/bluez]
+  opensuse: [bluez]
   rhel: [bluez-libs]
   ubuntu: [bluez]
 bluez-hcidump:
@@ -617,6 +618,7 @@ doxygen:
   fedora: [doxygen]
   freebsd: [doxygen]
   gentoo: [app-doc/doxygen]
+  opensuse: [doxygen]
   macports: [doxygen]
   rhel: [doxygen]
   ubuntu: [doxygen]
@@ -1028,6 +1030,7 @@ glut:
   gentoo: [media-libs/freeglut]
   macports: [freeglut]
   openembedded: [freeglut@meta-oe]
+  opensuse: [freeglut-devel]
   rhel: [freeglut-devel]
   ubuntu: [freeglut3-dev]
 gnuplot:
@@ -1051,7 +1054,7 @@ google-mock:
   freebsd: [googlemock]
   gentoo: [dev-cpp/gtest]
   openembedded: [gtest@meta-oe]
-  opensuse: [gmock-devel]
+  opensuse: [gmock]
   rhel: [gmock-devel]
   ubuntu: [google-mock]
 gperf:
@@ -1450,6 +1453,7 @@ lcov:
   debian: [lcov]
   fedora: [lcov]
   gentoo: [dev-util/lcov]
+  opensuse: [lcov]
   ubuntu: [lcov]
 leveldb:
   debian: [libleveldb-dev]
@@ -1623,6 +1627,7 @@ libccd-dev:
   fedora: [libccd]
   gentoo: [sci-libs/libccd]
   openembedded: [libccd@meta-ros]
+  opensuse: [ccd-devel]
   ubuntu: [libccd-dev]
 libcegui-mk2-dev:
   arch: [cegui]
@@ -1679,7 +1684,7 @@ libconsole-bridge-dev:
   freebsd: [ros-console_bridge]
   gentoo: [dev-libs/console_bridge]
   openembedded: [console-bridge@meta-ros]
-  opensuse: [libconsole_bridge0]
+  opensuse: [console-bridge-devel]
   rhel: [console-bridge-devel]
   slackware: [console_bridge]
   ubuntu: [libconsole-bridge-dev]
@@ -1809,6 +1814,7 @@ libfcl-dev:
   fedora: [fcl-devel]
   gentoo: [sci-libs/fcl]
   openembedded: [fcl@meta-ros]
+  opensuse: [fcl-devel]
   ubuntu:
     artful: [libfcl-dev]
     bionic: [libfcl-dev]
@@ -2019,6 +2025,7 @@ libglew-dev:
   debian: [libglew-dev]
   fedora: [glew-devel]
   gentoo: [media-libs/glew]
+  opensuse: [glew-devel]
   ubuntu:
     artful: [libglew-dev]
     bionic: [libglew-dev]
@@ -2093,6 +2100,7 @@ libgpgme-dev:
   freebsd: [gpgme]
   gentoo: [app-crypt/gpgme]
   openembedded: [gpgme@openembedded-core]
+  opensuse: [libgpgme-devel]
   rhel: [gpgme-devel]
   ubuntu:
     artful: [libgpgme-dev]
@@ -2540,7 +2548,7 @@ libogre-dev:
   freebsd: [ogre3d]
   gentoo: [dev-games/ogre]
   macports: [ogre]
-  opensuse: [ogre-devel]
+  opensuse: [libOgreMain-devel, libOgreOverlay-devel, libOgrePaging-devel, libOgreProperty-devel, libOgreRTShaderSystem-devel, libOgreTerrain-devel, libOgreVolume-devel]
   rhel: [ogre-devel]
   slackware: [ogre]
   ubuntu:
@@ -2591,7 +2599,7 @@ libopencv-dev:
   gentoo: [media-libs/opencv]
   macports: [opencv]
   openembedded: [opencv@meta-oe]
-  opensuse: [opencv-devel]
+  opensuse: [opencv3-devel]
   rhel: [opencv-devel]
   ubuntu: [libopencv-dev]
 libopenexr-dev:
@@ -2696,7 +2704,7 @@ libpcl-all:
   gentoo: [sci-libs/pcl]
   macports: [libpcl]
   openembedded: [pcl@meta-ros]
-  opensuse: [pcl]
+  opensuse: [libpcl1.9]
   rhel: [pcl, pcl-tools]
   slackware: [pcl]
   ubuntu:
@@ -2721,7 +2729,7 @@ libpcl-all-dev:
   gentoo: [sci-libs/pcl]
   macports: [libpcl]
   openembedded: [pcl@meta-ros]
-  opensuse: [pcl]
+  opensuse: [pcl-devel]
   rhel: [pcl-devel]
   slackware: [pcl]
   ubuntu:
@@ -3082,6 +3090,7 @@ libqt5-opengl-dev:
   fedora: [qt5-qtbase]
   freebsd: [qt5-opengl]
   gentoo: ['dev-qt/qtopengl:5']
+  opensuse: [libQt5OpenGL-devel]
   slackware: [qt5]
   ubuntu: [libqt5opengl5-dev]
 libqt5-printsupport:
@@ -3137,6 +3146,7 @@ libqt5x11extras5-dev:
   fedora: [qt5-qtx11extras-devel]
   freebsd: [qt5-x11extras]
   gentoo: ['dev-qt/qtx11extras:5']
+  opensuse: [libqt5-qtx11extras-devel]
   ubuntu: [libqt5x11extras5-dev]
 libqtgui4:
   arch: [qt4]
@@ -3265,6 +3275,7 @@ libspnav-dev:
   debian: [libspnav-dev]
   fedora: [libspnav-devel]
   gentoo: [dev-libs/libspnav]
+  opensuse: [libspnav-devel]
   ubuntu: [libspnav-dev]
 libsqlite3-dev:
   arch: [sqlite]
@@ -3304,6 +3315,7 @@ libssl-dev:
   freebsd: [openssl]
   gentoo: [dev-libs/openssl]
   openembedded: [openssl@openembedded-core]
+  opensuse: [libopenssl-devel]
   rhel: [openssl-devel]
   ubuntu: [libssl-dev]
 libstdc++5:
@@ -3424,7 +3436,7 @@ libtool:
   freebsd: [libtool]
   gentoo: [sys-devel/libtool]
   macports: [libtool]
-  opensuse: [libtool, libltdl3]
+  opensuse: [libtool, libltdl7]
   rhel: [libtool, libtool-ltdl-devel]
   slackware: [libtool]
   ubuntu:
@@ -3531,7 +3543,7 @@ liburdfdom-headers-dev:
   freebsd: [ros-urdfdom_headers]
   gentoo: [dev-libs/urdfdom_headers]
   openembedded: [urdfdom-headers@meta-ros]
-  opensuse: [urdfdom-headers-devel]
+  opensuse: [urdfdom-headers]
   slackware: [urdfdom_headers]
   ubuntu: [liburdfdom-headers-dev]
 liburdfdom-tools:
@@ -3540,6 +3552,7 @@ liburdfdom-tools:
   fedora: [urdfdom]
   freebsd: [ros-urdfdom]
   gentoo: [dev-libs/urdfdom]
+  opensuse: [urdfdom]
   slackware: [urdfdom]
   ubuntu: [liburdfdom-tools]
 libusb:
@@ -3576,6 +3589,7 @@ libusb-dev:
   fedora: [libusb-devel]
   gentoo: [virtual/libusb]
   macports: [libusb]
+  opensuse: [libusb-compat-devel]
   ubuntu: [libusb-dev]
 libuv-dev:
   debian:
@@ -3734,6 +3748,7 @@ libx11-dev:
   fedora: [libX11-devel]
   gentoo: [x11-libs/libX11]
   openembedded: [libx11@openembedded-core]
+  opensuse: [libX11-devel]
   rhel: [libX11-devel]
   ubuntu: [libx11-dev]
 libx264-dev:
@@ -4966,6 +4981,7 @@ spacenavd:
   debian: [spacenavd]
   fedora: [spacenavd]
   gentoo: [app-misc/spacenavd]
+  opensuse: [spacenavd]
   ubuntu: [spacenavd]
 sparsehash:
   debian: [libsparsehash-dev]

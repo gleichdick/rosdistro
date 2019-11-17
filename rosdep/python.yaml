@@ -643,6 +643,7 @@ python-bluez:
   debian: [python-bluez]
   fedora: [pybluez]
   gentoo: [dev-python/pybluez]
+  opensuse: [python-pybluez]
   rhel: [python-bluez]
   ubuntu: [python-bluez]
 python-boltons:
@@ -821,7 +822,7 @@ python-catkin-pkg:
   gentoo: [dev-python/catkin_pkg]
   macports: [python-catkin-pkg]
   openembedded: [python-catkin-pkg@meta-ros]
-  opensuse: [python-catkin_pkg]
+  opensuse: [python-catkin-pkg]
   osx:
     pip:
       packages: [catkin-pkg]
@@ -1100,6 +1101,9 @@ python-crypto:
   osx:
     pip:
       packages: [pycrypto]
+  opensuse:
+    pip:
+      packages: [pycrypto]
   ubuntu:
     artful: [python-crypto]
     artful_python3: [python3-crypto]
@@ -1136,6 +1140,7 @@ python-cwiid:
   debian: [python-cwiid]
   fedora: [cwiid]
   gentoo: ['app-misc/cwiid[python]']
+  opensuse: [python-cwiid]
   rhel: [cwiid]
   ubuntu: [python-cwiid]
 python-cython-pip:
@@ -1671,6 +1676,7 @@ python-gnupg:
   freebsd: [py27-python-gnupg]
   gentoo: [dev-python/python-gnupg]
   openembedded: [python-gnupg@meta-ros]
+  opensuse: [python-gnupg]
   ubuntu: [python-gnupg]
 python-google-cloud-bigquery-pip:
   debian:
@@ -1959,7 +1965,7 @@ python-imaging:
   freebsd: [py27-pillow]
   gentoo: [dev-python/pillow]
   macports: [py27-pil]
-  opensuse: [python-imaging]
+  opensuse: [python-Pillow]
   osx:
     pip:
       packages: [Pillow]
@@ -2213,6 +2219,7 @@ python-lxml:
   freebsd: [py27-lxml]
   gentoo: [dev-python/lxml]
   openembedded: [python-lxml@meta-python]
+  opensuse: [python-lxml]
   osx:
     pip:
       packages: [lxml]
@@ -2614,7 +2621,7 @@ python-opencv:
   freebsd: [py27-opencv]
   gentoo: ['media-libs/opencv[python]']
   openembedded: [opencv@meta-oe]
-  opensuse: [python-opencv]
+  opensuse: [python2-opencv3]
   slackware: [opencv]
   ubuntu: [python-opencv]
 python-opengl:
@@ -3014,6 +3021,9 @@ python-pyassimp:
     lion:
       homebrew:
         packages: [pyassimp]
+  opensuse:
+    pip:
+      [assimp]
   ubuntu:
     artful: [python-pyassimp]
     bionic: [python-pyassimp]
@@ -3047,6 +3057,7 @@ python-pycryptodome:
   debian: [python-pycryptodome]
   fedora: [python-pycryptodomex]
   gentoo: [dev-python/pycryptodome]
+  opensuse: [python2-pycryptodome]
   osx:
     pip:
       packages: [pycryptodome]
@@ -3348,12 +3359,16 @@ python-pytest:
   debian: [python-pytest]
   fedora: [python-pytest]
   gentoo: [dev-python/pytest]
+  opensuse: [python2-pytest]
   ubuntu: [python-pytest]
 python-pytest-dependency-pip:
   debian:
     pip:
       packages: [pytest-dependency]
   fedora:
+    pip:
+      packages: [pytest-dependency]
+  opensuse:
     pip:
       packages: [pytest-dependency]
   ubuntu:
@@ -3364,6 +3379,7 @@ python-pytest-mock:
   debian: [python-pytest-mock]
   fedora: [python-pytest-mock]
   gentoo: [dev-python/pytest-mock]
+  opensuse: [python2-pytest-mock]
   ubuntu: [python-pytest-mock]
 python-pytest-qt-pip:
   debian:
@@ -3533,6 +3549,7 @@ python-qt5-bindings-webkit:
   fedora: [python-qt5]
   freebsd: [py27-qt5-webkit]
   gentoo: ['dev-python/PyQt5[webkit]']
+  opensuse: [python-qt5]
   ubuntu:
     artful: [python-pyqt5.qtwebkit]
     bionic: [python-pyqt5.qtwebkit]
@@ -3604,7 +3621,9 @@ python-rosdep:
       packages: [rosdep]
   gentoo: [dev-python/rosdep]
   openembedded: [python-rosdep@meta-ros]
-  opensuse: [python-rosdep]
+  opensuse:
+    pip:
+      packages: [rosdep]
   osx:
     pip:
       packages: [rosdep]
@@ -3705,7 +3724,9 @@ python-rospkg:
   gentoo: [dev-python/rospkg]
   macports: [py27-rospkg]
   openembedded: [python-rospkg@meta-ros]
-  opensuse: [python-rospkg]
+  opensuse:
+    pip:
+      [rospkg]
   osx:
     pip:
       packages: [rospkg]
@@ -4854,6 +4875,7 @@ python-wxtools:
   freebsd: [py27-wxPython30]
   gentoo: [dev-python/wxpython]
   openembedded: [wxpython@meta-oe]
+  opensuse: [python-wxPython]
   ubuntu: [python-wxtools]
 python-xdot:
   debian: [xdot]
@@ -4939,6 +4961,7 @@ python3:
   debian: [python3-dev]
   fedora: [python3-devel]
   gentoo: [dev-lang/python]
+  opensuse: [python3-devel]
   ubuntu: [python3-dev]
 python3-babeltrace:
   debian: [python3-babeltrace]
@@ -4990,6 +5013,7 @@ python3-catkin-pkg:
   debian: [python3-catkin-pkg]
   fedora: [python3-catkin_pkg]
   gentoo: [dev-python/catkin_pkg]
+  opensuse: [python3-catkin-pkg]
   ubuntu: [python3-catkin-pkg]
 python3-catkin-pkg-modules:
   debian: [python3-catkin-pkg-modules]
@@ -5012,6 +5036,7 @@ python3-coverage:
   debian: [python3-coverage]
   fedora: [python3-coverage]
   gentoo: [dev-python/coverage]
+  opensuse: [python3-coverage]
   ubuntu: [python3-coverage]
 python3-cryptography:
   debian: [python3-cryptography]
@@ -5060,6 +5085,7 @@ python3-empy:
   fedora: [python3-empy]
   gentoo: [dev-python/empy]
   openembedded: [python3-empy@meta-ros]
+  opensuse: [python3-empy]
   rhel: ['python%{python3_pkgversion}-empy']
   ubuntu: [python3-empy]
 python3-flake8:
@@ -5128,6 +5154,7 @@ python3-lxml:
   fedora: [python3-lxml]
   freebsd: [py36-lxml]
   openembedded: [python3-lxml@meta-python]
+  opensuse: [python3-lxml]
   rhel: ['python%{python3_pkgversion}-lxml']
   ubuntu: [python3-lxml]
 python3-matplotlib:
@@ -5148,6 +5175,7 @@ python3-mock:
   fedora: [python3-mock]
   gentoo: [dev-python/mock]
   openembedded: [python3-mock@meta-ros]
+  opensuse: [python3-mock]
   rhel: ['python%{python3_pkgversion}-mock']
   ubuntu: [python3-mock]
 python3-mypy:
@@ -5168,6 +5196,7 @@ python3-nose:
   debian: [python3-nose]
   gentoo: [dev-python/nose]
   openembedded: [python3-nose@openembedded-core]
+  opensuse: [python3-nose]
   rhel: ['python%{python3_pkgversion}-nose']
   ubuntu: [python3-nose]
 python3-nose-yanc:
@@ -5179,6 +5208,7 @@ python3-numpy:
   fedora: [python3-numpy]
   gentoo: [dev-python/numpy]
   openembedded: [python3-numpy@openembedded-core]
+  opensuse: [python3-numpy]
   rhel: ['python%{python3_pkgversion}-numpy']
   ubuntu: [python3-numpy]
 python3-opencv:
@@ -5186,7 +5216,7 @@ python3-opencv:
     buster: [python3-opencv]
   fedora: [python3-opencv]
   openembedded: [opencv@meta-oe]
-  opensuse: [python3-opencv]
+  opensuse: [python3-opencv3]
   ubuntu:
     bionic: [python3-opencv]
     cosmic: [python3-opencv]
@@ -5296,6 +5326,7 @@ python3-pydot:
   fedora: [python3-pydot]
   gentoo: [dev-python/pydot]
   openembedded: [python3-pydot@meta-ros]
+  opensuse: [python3-pydot]
   rhel:
     '*': ['python%{python3_pkgversion}-pydot']
     '7': null
@@ -5369,11 +5400,15 @@ python3-qt5-bindings-webkit:
   debian: [python3-pyqt5.qtwebkit]
   fedora: [python3-qt5-webkit]
   gentoo: ['dev-python/PyQt5[webkit]']
+  opensuse: [python3-pyqt5]
   ubuntu: [python3-pyqt5.qtwebkit]
 python3-rosdep:
   debian: [python3-rosdep]
   fedora: [python3-rosdep]
   gentoo: [dev-util/rosdep]
+  opensuse:
+    pip:
+      packages: [rosdep]
   ubuntu: [python3-rosdep]
 python3-rosdistro-modules:
   debian: [python3-rosdistro-modules]
@@ -5509,6 +5544,7 @@ python3-yaml:
   fedora: [python3-PyYAML]
   gentoo: [dev-python/pyyaml]
   openembedded: [python3-pyyaml@meta-python]
+  opensuse: [python3-PyYAML]
   rhel: ['python%{python3_pkgversion}-PyYAML']
   ubuntu: [python3-yaml]
 qdarkstyle-pip:
